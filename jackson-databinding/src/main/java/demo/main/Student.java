@@ -1,5 +1,10 @@
 package demo.main;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//ignore unknown properties undefined in the POJO
+@JsonIgnoreProperties(ignoreUnknown = true)
+
+
 public class Student {
     private int id;
     private String firstName;
