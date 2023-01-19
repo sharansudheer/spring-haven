@@ -1,0 +1,10 @@
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+1) git init
+2) git add .
+3) git remote add origin https://github.com/sharansudheer/spring-haven.git
+4) git push --set-upstream origin master
