@@ -24,7 +24,14 @@
 hs_err_pid*
 replay_pid*
 
-.idea
+.settings
+.project
+.classpath
+target/
+test-output/
+node_modules/**
+.orig
+
 *.iml
 .DS_Store
 .DS_Store?
