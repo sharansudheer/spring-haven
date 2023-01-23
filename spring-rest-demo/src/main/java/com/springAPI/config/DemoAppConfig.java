@@ -10,3 +10,4 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan("com.springAPI")
 public class DemoAppConfig {
 }
+//test git
